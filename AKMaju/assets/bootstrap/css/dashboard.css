@@ -1,0 +1,18 @@
+/* Style the table cells */
+.items {
+    text-align: center;
+}
+
+/* Apply special style for the first column */
+.items:first-child {
+    padding-left: 25px;
+    text-align: left;
+}
+
+/* Style the message when no low stock items are found */
+#no-items {
+    font-weight: bold;
+    color: #666;
+    margin-top: 20px;
+    text-align: center;
+}
